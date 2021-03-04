@@ -33,7 +33,7 @@ data = pd.read_csv('data/kc_house_data.csv')
 # qual a soma total de quartos do conjunto de dados = 72854
 # print(sum(data['bedrooms']))
 
-# qual preço medio de todas as casas do conjunto de dados = 5.400881e+05
+# qual preço medio de todas as casas do conjunto de dados = 540.088
 #media = data.mean()
 #print(media)
 
