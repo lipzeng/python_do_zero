@@ -209,7 +209,7 @@ data.loc[data['bedrooms'] >= 3, 'dormitory_type'] = 'house'
 
 # 15. Quantos imoveis do tipo "apartament" foram reformados em 2015?
 
-print(data.columns)
-qtd_reform_apartament = data[(data['dormitory_type'] == 'apartament') & (data['yr_renovated'] < 2015-1-1)].count()
-
-print(qtd_reform_apartament)
+# print(data.columns)
+# qtd_reform_apartament = data[(data['dormitory_type'] == 'apartament') & (data['yr_renovated'] < 2015-1-1)].count()
+#
+# print(qtd_reform_apartament)
